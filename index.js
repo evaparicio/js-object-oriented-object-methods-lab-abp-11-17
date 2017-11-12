@@ -5,16 +5,16 @@ function BoardMember(name, homeState, training) {
   this.veto= function () {
     console.log("No, I must disagree");
   }
-  this.approve()= function () {
+  this.approve= function () {
     console.log("You can do that!");
   }
-  this.doCharity()= function () {
+  this.doCharity= function () {
     console.log("I like to help people.");
   }
-  this.releasePressStatement()= function () {
+  this.releasePressStatement= function () {
     console.log("You will see great things from Scuber.");
   }
-  this.sayHi()= function () {
+  this.sayHi= function () {
     console.log(`Hi, my name is ${name}. I am from ${homeState}, and I was trained in ${training}.`);
   }
 
